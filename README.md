@@ -6,10 +6,10 @@ OK, so taking them one by one.
 
 Couldn't figure out what would this app purpose would be and how could I just use it from k8s cluster.
 
-So the only logic I could find to this app is if it can just be mapped to a place where the documents are constantly changing and the purpose could be to check what is the most common word in each file separately + from all files in there whenever any of the file is changed.
+So the only logic I could find to this app is if it can just be mapped to a place where the documents are constantly changing, and the purpose could be to check what is the most common word in each file separately + from all files in there, whenever any of the file is changed.
 
 
-Now, I started by creating the script that stays in a loop (so that it won't kill the container when it's finished) and checks every minute the status of all files and compares it to the previous status.
+Now, I started by creating the script that stays in a loop (so that it won't kill the container when it's finished) and checks every minute the status of all files, and compares it to the previous status.
 
 Then, after checked if it was working on my PC, I edited the path to accept it from the os environment (which I will publish later in docker-compose.yml)
 
