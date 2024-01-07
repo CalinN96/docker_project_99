@@ -114,4 +114,4 @@ if __name__ == "__main__":
 
         # Just a print to make sure it works :)
         print("\nVerifying every 60 seconds..")
-        time.sleep(10)  # Sleep 60 seconds between checks
+        time.sleep(60)  # Sleep 60 seconds between checks
